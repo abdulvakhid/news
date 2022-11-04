@@ -1,0 +1,29 @@
+.active{
+    padding-bottom: 5px;
+    color: red;
+    border-bottom: 1px solid #000;
+}
+.search::after{
+    background-image: url();
+}
+
+.news-link{
+    color: darkred;
+    text-decoration: none;
+    
+}
+
+.login-body{
+    background-image: url("../images/bgim.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-form{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 35px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(71,253,29,1) 50%, rgba(252,176,69,1) 100%);
+    margin-top: 130px;
+}
