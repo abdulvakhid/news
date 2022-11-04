@@ -3,6 +3,12 @@
  const elAsiaList = document.querySelector(".asia-list");
  const elBtn = document.querySelector(".js-more-load");
  
+ const loginToken = localStorage.getItem("token-login")
+
+//  if(!loginToken){
+//     window.location.reload();
+//     window.location.pathname = "login.html";
+//   };
  
  const elTemplate = document.querySelector(".template").content;
  //  const elAsiaTemplate = document.querySelector(".asia-template").content;
